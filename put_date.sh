@@ -1,6 +1,6 @@
 #!/bin/bash
-now = 'date'
-if ["$1"]; then
+now='date'
+if [ "$1" ]; then
 touch ./"$1"
 echo "$now"
 >> ."$1"
